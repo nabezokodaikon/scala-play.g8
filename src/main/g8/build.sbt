@@ -34,7 +34,5 @@ lazy val root = (project.in(file(".")))
   )
   .enablePlugins(PlayScala)
 
-initialCommands := "import com.github.nabezokodaikon._"
-
 // controller に class を使用できるようにする。
 routesGenerator := InjectedRoutesGenerator
