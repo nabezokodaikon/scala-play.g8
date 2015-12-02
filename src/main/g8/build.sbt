@@ -1,7 +1,7 @@
 lazy val commonSettings = Seq(
-  organization := "com.github.nabezokodaikon",
-  version := "0.0.1",
-  scalaVersion := "2.11.7",
+  organization := "$organization$",
+  version := "$version$",
+  scalaVersion := "$scala_version$",
   scalacOptions ++= Seq(
     "-deprecation",
     "-feature",
